@@ -10,8 +10,8 @@ private:
 
 public:
   gameController();
-  gameController(int np);
   ~gameController();
+  void setGameSettings();
   void start();
   void menu();
   void setNumberPlayers(int np);
